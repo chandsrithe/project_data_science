@@ -1,0 +1,69 @@
+# Predictive Modeling Using Machine Learning – Titanic Dataset
+
+## Objective
+
+The objective of this project is to develop a machine learning model that predicts whether a passenger survived the Titanic disaster based on passenger attributes. The project demonstrates the complete machine learning workflow, including data preprocessing, model training, evaluation, and visualization.
+
+## Dataset
+
+* **Dataset:** Titanic Dataset
+* **Source:** Kaggle
+* **Records:** 891
+* **Features:** 15
+
+The dataset contains information such as passenger class, age, gender, fare, family size, embarkation port, and survival status.
+
+## Data Preprocessing
+
+The following preprocessing steps were performed:
+
+* Removed duplicate records.
+* Filled missing values in the **Age** column using the median.
+* Filled missing values in **Embarked** and **Embark Town** using the mode.
+* Dropped the **Deck** column because it contained a large number of missing values.
+* Converted categorical variables into numerical values using Label Encoding.
+
+## Machine Learning Models
+
+Two supervised learning algorithms were implemented:
+
+1. Decision Tree Classifier
+2. Random Forest Classifier
+
+The dataset was divided into training (80%) and testing (20%) sets using `train_test_split`.
+
+## Model Evaluation
+
+The following evaluation metrics were used:
+
+* Accuracy Score
+* Classification Report
+* Confusion Matrix
+* ROC Curve
+
+The Random Forest model achieved excellent predictive performance on the processed dataset.
+
+## Visualizations
+
+The following visualizations were generated:
+
+* Confusion Matrix
+* ROC Curve
+* Feature Importance
+* Model Accuracy Comparison
+
+These visualizations help evaluate model performance and identify the most influential features.
+
+## Conclusion
+
+This project successfully demonstrated the implementation of machine learning techniques for binary classification. The workflow included data preprocessing, model training, evaluation, and visualization. The generated results show that machine learning algorithms can effectively classify passenger survival based on the available features.
+
+## Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Visual Studio Code
