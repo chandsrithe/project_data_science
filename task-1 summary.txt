@@ -1,0 +1,58 @@
+# Task 1: Data Cleaning and Visualization Project
+
+## Project Title
+
+Titanic Dataset – Data Cleaning and Visualization
+
+## Objective
+
+The objective of this project was to clean a raw dataset by handling missing values, removing duplicate records, and creating meaningful visualizations to understand the data and identify important patterns.
+
+## Dataset
+
+* Dataset: Titanic Dataset
+* Source: Kaggle
+* Total Records: 891
+* Features: 15
+
+## Data Cleaning
+
+The following preprocessing steps were performed:
+
+* Removed duplicate records from the dataset.
+* Filled missing values in the **Age** column using the median value.
+* Filled missing values in the **Embarked** and **Embark Town** columns using the mode.
+* Removed the **Deck** column because it contained a large number of missing values.
+* Verified that no missing values remained after cleaning.
+
+## Visualizations Created
+
+The following visualizations were generated:
+
+* Passenger Survival Count
+* Gender vs Survival
+* Passenger Class Distribution
+* Age Distribution
+* Fare Outliers (Box Plot)
+* Correlation Heatmap
+
+## Key Insights
+
+* Most passengers did not survive the Titanic disaster.
+* Female passengers had a significantly higher survival rate than male passengers.
+* Most passengers traveled in Third Class.
+* The majority of passengers were between 20 and 40 years old.
+* The Fare column contained several high-value outliers.
+* Passenger class and gender showed a noticeable relationship with survival.
+
+## Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Visual Studio Code
+
+## Conclusion
+
+This project demonstrated the complete data cleaning workflow, including handling missing values, removing duplicates, and performing exploratory visualizations. The resulting charts provided valuable insights into passenger demographics and survival patterns, forming a solid foundation for further data analysis and machine learning.

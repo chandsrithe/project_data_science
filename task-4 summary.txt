@@ -1,0 +1,69 @@
+# Task 4: Real-World Data Project (Retail Domain)
+
+## Project Title
+
+Retail Sales Analysis and Sales Prediction using the Superstore Dataset
+
+## Objective
+
+The objective of this project was to analyze a real-world retail dataset, identify business insights through data visualization, and build a machine learning model to predict sales.
+
+## Dataset
+
+* Dataset: Sample - Superstore
+* Domain: Retail
+* Source: Kaggle
+* Total Records: 9,994
+* Features: 21
+
+## Data Cleaning
+
+The following preprocessing steps were performed:
+
+* Removed duplicate records.
+* Converted the Order Date column to datetime format.
+* Created a Month column for monthly sales trend analysis.
+* Verified that there were no missing values.
+
+## Exploratory Data Analysis
+
+The following visualizations were created:
+
+* Total Sales by Category
+* Profit by Category
+* Sales by Region
+* Monthly Sales Trend
+* Profit Distribution
+* Correlation Heatmap
+* Actual vs Predicted Sales
+
+## Machine Learning Model
+
+A Linear Regression model was built to predict sales using Quantity, Discount, and Profit as input features.
+
+### Model Performance
+
+* Mean Absolute Error (MAE): 245.08
+* Root Mean Squared Error (RMSE): 824.85
+* R² Score: -0.15
+
+## Key Insights
+
+* Technology generated the highest sales among all categories.
+* Sales varied across different regions.
+* Monthly sales showed fluctuations over time.
+* Discounts influenced profitability.
+* The simple Linear Regression model had limited predictive performance, indicating that additional features would be required for more accurate sales prediction.
+
+## Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Visual Studio Code
+
+## Conclusion
+
+This project demonstrated an end-to-end retail data analysis workflow, including data cleaning, exploratory data analysis, visualization, and predictive modeling. It provided practical experience in applying data science techniques to a real-world business dataset.
