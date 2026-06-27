@@ -10,7 +10,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # Load Dataset
 # ==========================================
 
-df = pd.read_csv("Sample - Superstore.csv", encoding="latin1")
+df = pd.read_csv("../datasets/Sample - Superstore.csv", encoding="latin1")
 
 print("="*50)
 print("REAL WORLD DATA PROJECT - SUPERSTORE")

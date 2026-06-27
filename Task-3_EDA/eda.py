@@ -6,7 +6,7 @@ import seaborn as sns
 # Load Dataset
 # ==========================================
 
-df = pd.read_csv("titanic.csv")
+df = pd.read_csv("../datasets/titanic.csv")
 
 print("="*50)
 print("EXPLORATORY DATA ANALYSIS")

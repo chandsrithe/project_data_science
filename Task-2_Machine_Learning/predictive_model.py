@@ -18,7 +18,7 @@ from sklearn.metrics import (
 # Load Dataset
 # =====================================
 
-df = pd.read_csv("titanic.csv")
+df = pd.read_csv("../datasets/titanic.csv")
 
 print("Original Shape:", df.shape)
 
