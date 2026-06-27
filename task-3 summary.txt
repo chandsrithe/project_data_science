@@ -1,0 +1,62 @@
+# Task 3: Exploratory Data Analysis (EDA) – Titanic Dataset
+
+## Objective
+
+The objective of this task was to perform Exploratory Data Analysis (EDA) on the Titanic dataset to understand its structure, identify patterns, and gain meaningful insights using statistical analysis and data visualization.
+
+## Dataset
+
+* Dataset: Titanic Dataset
+* Source: Kaggle
+* Total Records: 891
+* Features: 15
+
+## Data Exploration
+
+The dataset was explored using:
+
+* Dataset shape
+* Dataset information
+* Missing value analysis
+* Statistical summary
+
+## Data Cleaning
+
+The following preprocessing steps were performed:
+
+* Removed duplicate records
+* Filled missing values in the Age column using the median
+* Filled missing values in Embarked and Embark Town using the mode
+* Removed the Deck column due to a high number of missing values
+
+## Visualizations
+
+The following charts were created:
+
+* Passenger Survival Count
+* Survival by Gender
+* Passenger Class Distribution
+* Age Distribution
+* Fare Distribution
+* Correlation Heatmap
+* Pairplot
+
+## Key Insights
+
+* Most passengers belonged to Third Class.
+* Female passengers had a significantly higher survival rate than male passengers.
+* The majority of passengers were between 20 and 40 years old.
+* Passenger fares were highly right-skewed, with a few expensive tickets.
+* Passenger class and gender showed a strong relationship with survival.
+
+## Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Visual Studio Code
+
+## Conclusion
+
+The exploratory data analysis successfully identified important characteristics and trends within the Titanic dataset. The visualizations and statistical summaries provided valuable insights that can support future predictive modeling and decision-making.
